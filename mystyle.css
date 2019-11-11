@@ -1,73 +1,108 @@
-body {
-    background-color: lightblue;
+body{
+    min-width:750px;
+    font-size: 90%;
+    background-color:#f4fff4;
+
+
+}
+
+.title{
+    border-bottom;: 2px black solid;
+    display: block;
+    font-size:6vw;
+    font-family: Impact, Charcoal, sans-serif;
+
+    align-self: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.main {
     display: flex;
-    border: 5px solid black;
-    margin: 0 auto
+    border-top: 5px solid black;
+    margin: 0 auto;
+    width:60%;
+    max-width:850px;
+    min-width:600px
+
 
   }
   
-  h1 {
-    color: navy;
-    margin-left: 20px;
-  }
 
  .left {
-      background-color: blue;
-      margin: 0 auto;
-      border: 5px solid black;
-      width: 65%;
+     margin: 0 auto;
+    width: 65%;
   }
 
   .right{
-    background-color: pink;
     margin: 0 auto;
-    border: 5px solid black;
     width: 35%;
   }
 
   .left-block{
       height:fit-content;
-      border: 2px solid greenyellow;
-      margin: 2px;
-      padding: 5px;
+      margin: 1%;
+      padding: 1%;
       min-height: 142px;
+      position: relative;
+      background-color: white;
   }
+
+  .more{
+    color: grey;
+    font-size:87%;
+}
+
+.date {
+    text-align:right;
+    position: absolute;
+    bottom: 0px; 
+    width:95% ;
+    font-size: 70%;
+    margin: 0 auto;
+}
 
 
   .right-block{
     height:fit-content;
     border: 2px solid greenyellow;
-    margin: 2px;
-    padding: 5px;
+    margin: 1%;
+    padding: 1%;
     min-height: 40px;
+    background-color:red;
 }
 
 .highlights{
     height:fit-content;
-    border: 2px solid purple;
-    margin: 2px;
-    padding: 5px;
     min-height: 40px;
-    display: flex
+    display: flex;
+    font-size:140%;
 }
 
 .search-box{
     height:fit-content;
-    border: 2px solid purple;
-    margin: 2px;
-    padding: 5px;
     min-height: 40px;
+    border-bottom: 2px solid black;
+    padding-bottom:2%
 }
 
 .rl{
-    border: 2px solid purple;
     width: 50%;
     min-height: 150px;
+    padding: 2%;
+    margin:1%;
+        background-color: tomato;
+
 
 }
 
 .rr{
-    border: 2px solid gray;
-    width: 50%;
+   width: 50%;
+    padding: 2%;
+    margin:1%;
+    background-color: tomato;
+
+
 
 }
+
