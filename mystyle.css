@@ -1,5 +1,9 @@
 body {
     background-color: lightblue;
+    display: flex;
+    border: 5px solid black;
+    margin: 0 auto
+
   }
   
   h1 {
@@ -7,9 +11,63 @@ body {
     margin-left: 20px;
   }
 
- .greet {
+ .left {
       background-color: blue;
       margin: 0 auto;
-      width: 20%;
-      text-align: center;
+      border: 5px solid black;
+      width: 65%;
   }
+
+  .right{
+    background-color: pink;
+    margin: 0 auto;
+    border: 5px solid black;
+    width: 35%;
+  }
+
+  .left-block{
+      height:fit-content;
+      border: 2px solid greenyellow;
+      margin: 2px;
+      padding: 5px;
+      min-height: 142px;
+  }
+
+
+  .right-block{
+    height:fit-content;
+    border: 2px solid greenyellow;
+    margin: 2px;
+    padding: 5px;
+    min-height: 40px;
+}
+
+.highlights{
+    height:fit-content;
+    border: 2px solid purple;
+    margin: 2px;
+    padding: 5px;
+    min-height: 40px;
+    display: flex
+}
+
+.search-box{
+    height:fit-content;
+    border: 2px solid purple;
+    margin: 2px;
+    padding: 5px;
+    min-height: 40px;
+}
+
+.rl{
+    border: 2px solid purple;
+    width: 50%;
+    min-height: 150px;
+
+}
+
+.rr{
+    border: 2px solid gray;
+    width: 50%;
+
+}
