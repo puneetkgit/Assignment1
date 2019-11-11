@@ -2,6 +2,7 @@ body{
     min-width:750px;
     font-size: 90%;
     background-color:#f4fff4;
+    height: fit-content;
 
 
 }
